@@ -1,5 +1,7 @@
 # Preparing your Claude Style for Rill
 
+[Review the main Rill MCP Server documentation](https://docs.rilldata.com/explore/mcp)
+
 To use the DataExplorer style in your Claude Desktop, you need to edit the Explore link examples to suit your project.
 
 1. Edit the Style
