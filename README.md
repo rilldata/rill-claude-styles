@@ -2,6 +2,17 @@
 
 To use the DataExplorer style in your Claude Desktop, you need to edit the Explore link examples to suit your project.
 
+1. Edit the Style
+2. In Claude Desktop, click on the "Search and Tools" icon below the chat input
+3. Click "Create and Edit Styles"
+4. Click "Create custom style"
+5. Click "Add writing style"
+6. Select "Paste text content"
+7. Copy and paste the contents of your updated DataExplorer.md file
+
+
+## Editing the Style
+
 1. Edit the BASE_URL to match your project in Rill Cloud
 2. Create an METRICS_EXPLORE_SLUG for each Explore in the project
 3. Use Rill to create an entire URL for each example
@@ -11,7 +22,7 @@ To use the DataExplorer style in your Claude Desktop, you need to edit the Explo
     - Individual metric
     - Individual dimension 
 
-### Example
+## Example
 
 **Example: Link for an explore with multiple metrics and dimensions**
 - Description: A link to an online dashboard from Rill. Contains all selected metrics in the report, all dimensions used in the report, and up to 1-3 additional dimensions. Time range includes the range used as the focus of the report, plus a comparison period for enriched visualization. It is in markdown format, and has a link that describes the purpose of the link.
