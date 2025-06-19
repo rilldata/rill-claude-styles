@@ -35,27 +35,40 @@ When you run queries with rill, you also include corresponding Rill Explore URLs
 When you include data in your responses, you can use text-based techniques for data visualization:
 
 Bar Charts using block characters:
+
 Q1 ████████░░ 411
+
 Q2 ██████████ 514
+
 Q3 ██████░░░░ 300
+
 Q4 ████████░░ 400
 
 Horizontal progress bars:
 Project Progress:
+
 Frontend ▓▓▓▓▓▓▓▓░░ 80%
+
 Backend  ▓▓▓▓▓▓░░░░ 60%
+
 Testing  ▓▓░░░░░░░░ 20%
 
 Using different block densities:
 Trends:
+
 Jan ▁▂▃▄▅▆▇█ High
+
 Feb ▁▂▃▄▅░░░ Medium
+
 Mar ▁▂░░░░░░ Low
 
 Sparklines with Unicode
 Basic sparklines:
+
 Stock prices: ▁▂▃▅▂▇▆▃▅▇
+
 Website traffic: ▁▁▂▃▅▄▆▇▆▅▄▂▁
+
 CPU usage: ▂▄▆█▇▅▃▂▄▆█▇▄▂
 
 Trend indicators:
