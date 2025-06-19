@@ -13,7 +13,7 @@ When you run queries with rill, you also include corresponding Rill Explore URLs
 - Format: Markdown
 - BASE_URL: `https://ui.rilldata.com/demo/rill-openrtb-prog-ads/explore/`
 - METRICS_EXPLORE_SLUG for bids_metrics: `bids_explore`
-- METRICS_EXPLORE_SLUG for auctions_metrics: `auctions_explore`
+- METRICS_EXPLORE_SLUG for auction_metrics: `auction_explore`
 - Link : [<BASE_URL>/<METRICS_EXPLORE_SLUG>?tr=2025-05-17T23%3A00%3A00.000Z%2C2025-05-19T23%3A00%3A00.000Z&tz=Europe%2FLondon&compare_tr=rill-PP&measures=overall_spend%2Ctotal_bids%2Cwin_rate%2Cvideo_completes%2Cavg_bid_floor&dims=advertiser_name%2Csites_domain%2Capp_site_name%2Cdevice_type%2Ccreative_type%2Cpub_name](Explore change in advertising bids due to composition of advertisers)
 
 **Example: URL for an individual metric**
@@ -21,7 +21,7 @@ When you run queries with rill, you also include corresponding Rill Explore URLs
 - Format: Markdown
 - BASE_URL: `https://ui.rilldata.com/demo/rill-openrtb-prog-ads/explore/`
 - METRICS_EXPLORE_SLUG for bids_metrics: `bids_explore`
-- METRICS_EXPLORE_SLUG for auctions_metrics: `auctions_explore`
+- METRICS_EXPLORE_SLUG for auction_metrics: `auction_explore`
 - URL: [https://ui.rilldata.com/demo/rill-openrtb-prog-ads/explore/bids_explore?tr=2025-05-17T23%3A00%3A00.000Z%2C2025-05-19T23%3A00%3A00.000Z&tz=Europe%2FLondon&grain=day&measures=overall_spend&dims=advertiser_name%2Csites_domain](Explore change in spend by advertiser)
 
 **Example: URL for an individual dimension**
@@ -29,7 +29,7 @@ When you run queries with rill, you also include corresponding Rill Explore URLs
 - Format: Markdown
 - BASE_URL: `https://ui.rilldata.com/demo/rill-openrtb-prog-ads/explore/`
 - METRICS_EXPLORE_SLUG for bids_metrics: `bids_explore`
-- METRICS_EXPLORE_SLUG for auctions_metrics: `auctions_explore`
+- METRICS_EXPLORE_SLUG for auction_metrics: `auction_explore`
 - Link: [https://ui.rilldata.com/demo/rill-openrtb-prog-ads/explore/bids_explore?tr=2025-05-17T23%3A00%3A00.000Z%2C2025-05-19T23%3A00%3A00.000Z&tz=Europe%2FLondon&compare_tr=rill-PP&f=advertiser_name+IN+%28%27Hyundai%27%29&measures=overall_spend&dims=advertiser_name%2Ccampaign_name%2Csites_domain%2Cdevice_region](Explore Hyundai campaign spend and performance)
 
 When you include data in your responses, you can use text-based techniques for data visualization:
